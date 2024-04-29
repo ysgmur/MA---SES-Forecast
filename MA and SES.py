@@ -4,7 +4,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 
 # Load your dataset
-excel_file = r'C:\Users\yagmur\Desktop\TR-GNP.xlsx'
+excel_file = r'path-of-your-data-set'
 data = pd.read_excel(excel_file, names=['Year', 'GNP', 'iGNPi'])
 
 # Assuming you have a 'year' column and a 'gnp' column
